@@ -65,17 +65,46 @@
 
 
 //question 8
-let num1 = prompt("Enter first number:");
-let num2 = prompt("Enter second number:");
-function oddOrNot(num1, num2) {
-    if(num1 % 2 ===0 && num2 % 2===0){
-        console.log("Both numbers are even");
-}else if(num1 % 2!=0 && num2 % 2!=0){
-        console.log("Both numbers are odd");
-}else console.log("One number is even and the other is odd");
-}
-oddOrNot();
-
+// let num1 = prompt("Enter first number:");
+// let num2 = prompt("Enter second number:");
+// function oddOrNot(num1, num2) {
+//     if(num1 % 2 ===0 && num2 % 2===0){
+//         console.log("Both numbers are even");
+// }else if(num1 % 2!=0 && num2 % 2!=0){
+//         console.log("Both numbers are odd");
+// }else console.log("One number is even and the other is odd");
+// }
+// oddOrNot();
 
 //question 9
+function check(){
+var a = b;
+var b = c;
+var c = d;
+var d = a;
+console.log("a:", a, "b:", b, "c:", c, "d:", d);
+}
 
+check();
+
+//question 10
+for(var i = 1; i<=10 ; i++) {
+    console.log(i*2);
+}
+//question 11
+function cal(){
+    console.log(2+(5*10)-(20**2));
+}
+cal();
+//question 12
+function checkIfHundred(num) {
+    if (num * 20 === 100) {
+        console.log("Yes");
+    } else {
+        console.log("No");
+    }
+}
+
+// Example usage:
+checkIfHundred(5); // Yes
+checkIfHundred(4); // No
